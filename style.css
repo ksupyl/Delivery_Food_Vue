@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100%;
+    max-width: 1230px;
+    margin: 0px auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.logo {
+    max-width: 100px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.header {
+    height: 124px;
+}
+
+.header-box {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer {
+    height: 156px;
+}
+
+.footer-box {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-nav {
+    flex-grow: 1;
+}
