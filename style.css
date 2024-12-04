@@ -193,10 +193,6 @@ main {
     line-height: 24px;
 }
 
-.products-header--search::before {
-    content: url("./img/icons/search.svg");
-}
-
 @media (max-width: 991px) {
     .banner-item--title {
         max-width: 100%;
