@@ -4,39 +4,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <title>Delivery Food</title>
 </head>
 
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="header-box">
-                <div class="header-logo logo">
-                    <img src="./img/logo.png" alt="logo">
+    <div class="page-wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header-box">
+                    <div class="header-logo logo">
+                        <img src="./img/logo.png" alt="logo">
+                    </div>
+                    <div class="header-controls">
+                        <button class="btn btn-primary">
+                            <img src="./img/icons/user.svg" alt="user">
+                            Login
+                        </button>
+                        <button class="btn btn-outline">
+                            <img src="./img/icons/shopping-cart.svg" alt="shopping-cart">
+                            Shopping cart
+                        </button>
+                    </div>
                 </div>
-                <div class="header-controls"></div>
             </div>
-        </div>
-    </header>
+        </header>
 
-    <main class="main">
-        <div class="container">
-
-        </div>
-    </main>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-box">
-                <div class="footer-logo logo">
-                    <img src="./img/logo.png" alt="logo">
+        <main class="main">
+            <section class="banner">
+                <div class="container">
+                    <div class="banner-item">
+                        <h2 class="banner-item--title">
+                            An online food delivery service to your home
+                        </h2>
+                        <p class="banner-item--subtitle">
+                            Dishes from your favorite restaurant will be delivered by a courier wearing gloves, a mask,
+                            and carrying sanitizer
+                        </p>
+                    </div>
                 </div>
-                <div class="footer-nav"></div>
-                <div class="footer-social"></div>
+            </section>
+
+            <section class=" products">
+                <div class="container">
+                    <div class="products-header">
+                        <h3 class="products-header--title">Restaurants</h3>
+
+                        <input type="text" class="products-header--search"
+                            placeholder="Search for dishes and restaurants" />
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-box">
+                    <div class="footer-logo logo">
+                        <img src="./img/logo.png" alt="logo">
+                    </div>
+                    <div class="footer-nav">
+                        <ul>
+                            <li><a href="#">To restaurants</a></li>
+                            <li><a href="#">To couriers</a></li>
+                            <li><a href="#">Press center</a></li>
+                            <li><a href="#">Contacts</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-social">
+                        <a href="https://www.instagram.com/"><img src="./img/icons/social/INST.svg" alt="INST"></a>
+                        <a href="https://www.facebook.com/"><img src="./img/icons/social/FB.svg" alt="FB"></a>
+                        <a href="https://vk.com/"><img src="./img/icons/social/VK.svg" alt="VK"></a>
+                    </div>
+                </div>
             </div>
-        </div>
-    </footer>
+        </footer>
+    </div>
+
 </body>
 
 </html>
