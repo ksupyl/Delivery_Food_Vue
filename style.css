@@ -293,7 +293,7 @@ main {
 /* Modal windows */
 
 .cart-modal__overlay {
-    display: flex;
+    display: none;
     position: fixed;
     top: 0;
     right: 0;
@@ -366,8 +366,8 @@ main {
     gap: 10px;
 }
 
-.card-item:not(:last-child) {
-    padding-bottom: 10px;
+.cart-item:not(:last-child) {
+    padding-bottom: 10x;
     margin-bottom: 10px;
     border-bottom: 1px solid #d9d9d9;
 }
