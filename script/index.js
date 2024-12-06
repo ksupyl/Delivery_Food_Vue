@@ -63,7 +63,7 @@ const restsFunc = () => {
                         </a>
             `)
         });
-    }
+    };
 
     fetch('../db/db.json')
         .then(response => response.json())
@@ -122,7 +122,7 @@ const goodsFunc = () => {
                         </a>
             `)
         });
-    }
+    };
 
     fetch('../db/db.json')
         .then(response => response.json())
@@ -137,6 +137,38 @@ const goodsFunc = () => {
             }
         });
 };
+
+// const goodsHeaderFunc = () => {
+//     const container = document.querySelector('#goods-header');
+
+//     const renderHeaderGoods = () => {
+//         container.innerHTML = '';
+
+//         array.forEach((card) => {
+//             container.insertAdjacentHTML('beforeend', `
+//                 <h3 class="products-header__title">${card.title}</h3>
+//                 <div class="products-card__description-info">
+//                     <div class="products-card__description-info--raiting">
+//                         <img src="./img/icons/star.svg" alt="star">
+//                         ${card.rating}
+//                     </div>
+//                     <div class="products-card__description-info--price">
+//                         From $${card.price}
+//                     </div>
+//                     <div class="products-card__description-info--group">
+//                         ${card.type}
+//                     </div>
+//                 </div>
+//             `);
+//         });
+//     };
+
+//     fetch('../db/db.json')
+//         .then(response => response.json())
+//         .then(data => {
+//             renderHeaderGoods(data.rests);
+//         });
+// }
 
 modalFunc();
 restsFunc();
