@@ -7,7 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./script/index.js" defer></script>
     <title>Delivery Food</title>
 </head>
 
@@ -24,7 +25,7 @@
                             <img src="./img/icons/user.svg" alt="user">
                             Login
                         </button>
-                        <button class="btn btn-outline">
+                        <button class="btn btn-outline" id="cart-button">
                             <img src="./img/icons/shopping-cart-gray.svg" alt="shopping-cart">
                             Shopping cart
                         </button>
@@ -57,8 +58,8 @@
                             placeholder="Search for dishes and restaurants" />
                     </div>
 
-                    <div class="products-wrapper">
-                        <a href="./goods.html" class="products-card">
+                    <div class="products-wrapper" id="rests-container">
+                        <!-- <a href="./goods.html" class="products-card">
                             <div class="products-card__image">
                                 <img src="./img/rests/rest-1.jpg" alt="rest-1">
                             </div>
@@ -212,8 +213,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </a>
-
+                        </a> -->
                     </div>
                 </div>
             </section>

@@ -1,0 +1,102 @@
+{
+    "rests": [
+        {
+            "id": 0,
+            "img": "rest-0.jpg",
+            "title": "Pizza Hut",
+            "time": "50 minutes",
+            "rating": 4.5,
+            "price": 11,
+            "type": "Pizza"
+        },
+        {
+            "id": 1,
+            "img": "rest-1.jpg",
+            "title": "Koi",
+            "time": "55 minutes",
+            "rating": 4.8,
+            "price": 13,
+            "type": "Sushi"
+        },
+        {
+            "id": 2,
+            "img": "rest-2.jpg",
+            "title": "Marco's Pizza",
+            "time": "45 minutes",
+            "rating": 4.6,
+            "price": 13,
+            "type": "Pizza"
+        },
+        {
+            "id": 3,
+            "img": "rest-3.jpg",
+            "title": "Blue Fin",
+            "time": "40 minutes",
+            "rating": 4.4,
+            "price": 9,
+            "type": "Sushi"
+        },
+        {
+            "id": 4,
+            "img": "rest-4.jpg",
+            "title": "Logan's Roadhouse",
+            "time": "50 minutes",
+            "rating": 4.9,
+            "price": 10,
+            "type": "Pizza, Sushi"
+        },
+        {
+            "id": 5,
+            "img": "rest-5.jpg",
+            "title": "Domino's Pizza",
+            "time": "60 minutes",
+            "rating": 4.9,
+            "price": 14,
+            "type": "Pizza"
+        }
+    ],
+    "goods": [
+        {
+            "id": 0,
+            "img": "good-0.jpg",
+            "title": "Unagi Roll Standard",
+            "description": "Rice, eel, unagi sauce, sesame seeds, nori seaweed",
+            "price": 10
+        },
+        {
+            "id": 1,
+            "img": "good-1.jpg",
+            "title": "California Salmon Standard",
+            "description": "Rice, salmon, avocado, cucumber, mayonnaise, masago roe, nori seaweed",
+            "price": 12
+        },
+        {
+            "id": 2,
+            "img": "good-2.jpg",
+            "title": "Okinawa Standard",
+            "description": "Rice, boiled shrimp, cream cheese, salmon, fresh cucumber",
+            "price": 11
+        },
+        {
+            "id": 3,
+            "img": "good-3.jpg",
+            "title": "Caesar Maki XL",
+            "description": "Rice, smoked chicken breast, masago roe, tomato, iceberg lettuce, Caesar sauce",
+            "price": 13
+        },
+        {
+            "id": 4,
+            "img": "good-4.jpg",
+            "title": "Yasai Maki Standard, 185 g",
+            "description": "Rice, fresh tomato, bell pepper, avocado, cucumber, iceberg lettuce",
+            "price": 14
+        },
+        {
+            "id": 5,
+            "img": "good-5.jpg",
+            "title": "Shrimp Roll Standard",
+            "description": "Rice, nori seaweed, boiled shrimp, cream cheese, cucumbers",
+            "price": 15
+        }
+    ]
+}
